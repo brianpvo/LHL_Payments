@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1059FD20818911001EB299 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1059FC20818911001EB299 /* ApplePaymentService.m */; };
 		7AF83B4E20812F0B005B3873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF83B4D20812F0B005B3873 /* main.m */; };
 		7AF83B5620812FE3005B3873 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF83B5520812FE3005B3873 /* InputHandler.m */; };
 		7AF83B5920813115005B3873 /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF83B5820813115005B3873 /* PaymentGateway.m */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A1059FB20818911001EB299 /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		7A1059FC20818911001EB299 /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 		7AF83B4A20812F0B005B3873 /* Payments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payments; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF83B4D20812F0B005B3873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AF83B5420812FE3005B3873 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				7AF83B5E2081339F005B3873 /* PaypalPaymentService.m */,
 				7AF83B60208134F0005B3873 /* StripePaymentService.h */,
 				7AF83B61208134F0005B3873 /* StripePaymentService.m */,
+				7A1059FB20818911001EB299 /* ApplePaymentService.h */,
+				7A1059FC20818911001EB299 /* ApplePaymentService.m */,
 			);
 			path = Payments;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				7AF83B5920813115005B3873 /* PaymentGateway.m in Sources */,
 				7AF83B62208134F0005B3873 /* StripePaymentService.m in Sources */,
 				7AF83B4E20812F0B005B3873 /* main.m in Sources */,
+				7A1059FD20818911001EB299 /* ApplePaymentService.m in Sources */,
 				7AF83B5F2081339F005B3873 /* PaypalPaymentService.m in Sources */,
 				7AF83B5C208132FC005B3873 /* AmazonPaymentService.m in Sources */,
 				7AF83B5620812FE3005B3873 /* InputHandler.m in Sources */,
